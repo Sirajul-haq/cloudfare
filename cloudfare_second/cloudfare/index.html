@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Confirm your identity... </title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url('./images/safe_bg.png');
+            background-position: center;
+        }
+
+        .center_layout {
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+
+        .center_tag {
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .center_body {
+            background-color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            padding: 40px;
+            margin: 10px;
+        }
+
+        .contensrc h1 {
+
+            font-size: 24px;
+        }
+
+        .contensrc p:first-of-type {
+
+            font-size: 16px;
+            font-weight: normal;
+        }
+
+
+        .contensrc p {
+            font-size: 14px;
+        }
+
+
+
+        .imgsrc img {
+            height: 60px;
+            padding: 25px;
+        }
+
+        .appkodesimg img {
+            height: 40px;
+        }
+
+        .appkodesimg {
+
+            display: flex;
+            justify-content: flex-end;
+            margin: 20px 15px;
+
+        }
+
+
+
+        .contensrc .cont {
+            font-size: 22px;
+            font-family: Helvetica;
+        }
+
+        .contensrc div {
+            margin: 0 auto;
+        }
+
+        #recaptcha_submit {
+            padding: 10px 20px;
+            background: #0065ff;
+            border-radius: 4px;
+            color: #fff;
+            border: none;
+            width: 100%;
+            margin: 10px 0px;
+            font-family: Helvetica;
+
+
+        }
+
+
+
+
+
+
+        @media (min-width: 320px) and (max-width: 991px) {
+
+            .contensrc h1 {
+                font-size: 18px;
+            }
+
+            .contensrc>p:first-child {
+                font-size: 14px;
+            }
+
+            .contensrc p {
+                font-size: 14px;
+            }
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center_layout">
+
+        <div class=center_tag>
+
+            <div class="center_body">
+
+                <div class="imgsrc">
+                    <img src="./images/hts_logo.png" alt="Logo" />
+                </div>
+
+                <div class="contensrc">
+                    <div class="cont"> You'r almost there </div>
+                    <h1>::CAPTCHA_BOX::</h1>
+                </div>
+
+            </div>
+
+            <div class="appkodesimg">
+                <img src="./images/ap_logo.png" alt="ap_Logo" />
+            </div>
+
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
